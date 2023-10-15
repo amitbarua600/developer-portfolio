@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -22,19 +23,38 @@ section {
 
 .half-width img {
     width: 80%;
+    margin-top: 50px;
 }
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(lightblue, royalblue);
+    background-image: linear-gradient(#2193b0, #6dd5ed);
     padding: 10px 40px;
     color: whitesmoke;
     font-weight: 700;
     border-radius: 15px;
-
 }
 
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.goal-color {
+    color: rebeccapurple;
+}
+
+.link-butto-01 {
+    text-decoration: none;
+    background-image: linear-gradient(#42275a, #734b6d);
+    padding: 10px 40px;
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.my-goal {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
